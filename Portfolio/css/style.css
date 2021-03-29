@@ -1,0 +1,27 @@
+/* Your custom styles */
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+.blockquote {
+  border-left-color: #1c2331 !important;
+}
+.about-me {
+  font-size: 1rem;
+}
+@media (min-width: 560px) and (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .mob_h {
+    font-size: 40px;
+  }
+}
